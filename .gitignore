@@ -1,0 +1,35 @@
+# Rust builds
+/target
+**/*.rs.bk
+
+# Python env & cache
+/workers/.venv
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.pytest_cache/
+
+# Node / React Frontend
+/frontend-dashboard/node_modules
+/frontend-dashboard/dist
+/frontend-dashboard/dist-ssr
+/frontend-dashboard/npm-debug.log*
+
+# Test Outputs & Artifacts
+/outputs/
+/dump.rdb
+
+# Environment Secrets
+.env
+.env.local
+.env.*.local
+
+# OS & IDE Settings
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
